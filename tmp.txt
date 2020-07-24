@@ -1,0 +1,4 @@
+project abc
+1. setup maven
+2. create archetype for service 'c'
+https://start.spring.io/
