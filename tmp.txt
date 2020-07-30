@@ -1,4 +1,11 @@
 project abc
 1. setup maven
 2. create archetype for service 'c'
-https://start.spring.io/
+    https://start.spring.io/
+    create service-c application
+
+3. create docker image for service 'c':
+
+    docker build -t my-tests/service-c .
+    docker run -p 8080:8080 my-tests/service-c
+    docker run -it  -p 8080:8080 my-tests/service-c /bin/bash
